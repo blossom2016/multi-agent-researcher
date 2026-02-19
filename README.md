@@ -66,8 +66,14 @@ To avoid duplication, these files are linked into respective subdirectories as [
 
 <img width="953" height="975" alt="Screenshot 2026-02-19 at 13 29 27" src="https://github.com/user-attachments/assets/8608272d-875b-41b8-bce6-0aaeb0a3c2aa" />
 
+
+Tell The App what you will like to Generate 
 <img width="958" height="990" alt="Screenshot 2026-02-19 at 13 29 55" src="https://github.com/user-attachments/assets/4923efc8-3932-4ccf-ac84-c3c1ba8b0f67" />
+
+
     <img width="953" height="964" alt="Screenshot 2026-02-19 at 13 33 43" src="https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67" />
+
+    
 
     <img width="947" height="984" alt="Screenshot 2026-02-19 at 13 33 37" src="https://github.com/user-attachments/assets/d8466029-e738-4852-98bc-cef1bbb5acbe" />
     
