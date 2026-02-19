@@ -64,28 +64,23 @@ To avoid duplication, these files are linked into respective subdirectories as [
 4.  **Access the App:**
     Open in your browser. **http://localhost:8000**
 
-<img width="953" height="975" alt="Screenshot 2026-02-19 at 13 29 27" src="https://github.com/user-attachments/assets/8608272d-875b-41b8-bce6-0aaeb0a3c2aa" />
+### Screenshots
 
+**1. App Home** – Enter a prompt to generate course content:
 
-Tell The App what you will like to Generate 
+![App Home - Enter prompt](https://github.com/user-attachments/assets/8608272d-875b-41b8-bce6-0aaeb0a3c2aa)
 
-<img width="958" height="990" alt="Screenshot 2026-02-19 at 13 29 55" src="https://github.com/user-attachments/assets/4923efc8-3932-4ccf-ac84-c3c1ba8b0f67" />
+**2. Tell the app what you would like to generate:**
 
+![Tell the app what to generate](https://github.com/user-attachments/assets/4923efc8-3932-4ccf-ac84-c3c1ba8b0f67)
 
-    <img width="953" height="964" alt="Screenshot 2026-02-19 at 13 33 43" src="https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67" />
+**3. Generation in progress:**
 
-    
+![Generation in progress](https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67)
 
-    <img width="947" height="984" alt="Screenshot 2026-02-19 at 13 33 37" src="https://github.com/user-attachments/assets/d8466029-e738-4852-98bc-cef1bbb5acbe" />
-    
+**4. Generated result:**
 
-
-
-
-
-
-
-
+![Generated result](https://github.com/user-attachments/assets/d8466029-e738-4852-98bc-cef1bbb5acbe)
 
 ## Deployment
 
