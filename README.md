@@ -62,8 +62,9 @@ To avoid duplication, these files are linked into respective subdirectories as [
     This will start all 4 agents and the web app in background processes
 
 4.  **Access the App:**
-    Open **http://localhost:8000** in your browser.
-![Alt text for the image](images/Screenshot 2026-02-19 at 13.29.19.png)
+    Open in your browser. **http://localhost:8000**  <img width="953" height="964" alt="Screenshot 2026-02-19 at 13 33 43" src="https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67" />
+
+
 ## Deployment
 
 To deploy to Google Cloud Run, you need to deploy each service individually and then configure the Orchestrator with the URLs of the other services.
