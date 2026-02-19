@@ -49,17 +49,17 @@ if [ "$PROJECT_ID_SET" = false ]; then
 
     # Loop until a project is successfully created.
     while true; do
-      RANDOM_SUFFIX=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c "$MAX_SUFFIX_LEN")
-      SUGGESTED_PROJECT_ID="${CODELAB_PROJECT_PREFIX}-${RANDOM_SUFFIX}"
+  RANDOM_SUFFIX=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c "$MAX_SUFFIX_LEN")
+  SUGGESTED_PROJECT_ID="${CODELAB_PROJECT_PREFIX}-${RANDOM_SUFFIX}"
 
-      read -p "Enter project ID or press Enter to use default: " -e -i "$SUGGESTED_PROJECT_ID" FINAL_PROJECT_ID
+  # Optimized for compatibility:
+  echo "Suggested Project ID: $SUGGESTED_PROJECT_ID"
+  read -p "Enter project ID (press Enter to use suggestion): " USER_INPUT
+  
+  # If user pressed Enter (input is empty), use the suggestion
+  FINAL_PROJECT_ID=${USER_INPUT:-$SUGGESTED_PROJECT_ID}
 
-      if [[ -z "$FINAL_PROJECT_ID" ]]; then
-          echo "Project ID cannot be empty. Please try again."
-          continue
-      fi
-
-      echo "Attempting to create project with ID: $FINAL_PROJECT_ID"
+  echo "Attempting to create project with ID: $FINAL_PROJECT_ID"
       ERROR_OUTPUT=$(gcloud projects create "$FINAL_PROJECT_ID" --quiet 2>&1)
       CREATE_STATUS=$?
 
@@ -80,11 +80,21 @@ fi
 
 # --- Part 2: Install Dependencies and Run Billing Setup ---
 # This part runs for both existing and newly created projects.
+echo -e "\n--- Setting up Virtual Environment ---"
+# Create a hidden venv directory
+python3 -m venv .venv || handle_error "Failed to create virtual environment."
+
+# Activate the virtual environment
+source .venv/bin/activate || handle_error "Failed to activate virtual environment."
+
 echo -e "\n--- Installing Python dependencies ---"
-pip install --upgrade --user google-cloud-billing || handle_error "Failed to install Python libraries."
+# Now pip works safely inside the environment
+pip install --upgrade google-cloud-billing || handle_error "Failed to install Python libraries."
 
 echo -e "\n--- Running the Billing Enablement Script ---"
-python3 billing-enablement.py || handle_error "The billing enablement script failed. See the output above for details."
+# Running it while the venv is active ensures it uses the installed library
+python3 billing-enablement.py || handle_error "The billing enablement script failed."
+
 
 echo -e "\n--- Full Setup Complete ---"
 exit 0
