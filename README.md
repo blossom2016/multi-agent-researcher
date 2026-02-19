@@ -74,7 +74,7 @@ To avoid duplication, these files are linked into respective subdirectories as [
 
 <img width="953" height="975" alt="Screenshot 2026-02-19 at 13 29 27" src="https://github.com/user-attachments/assets/8608272d-875b-41b8-bce6-0aaeb0a3c2aa" />
 
-<img width="945" height="972" alt="Screenshot 2026-02-19 at 13 29 19" src="https://github.com/user-attachments/assets/15780e76-b3f1-4154-8f52-e0d9649c68c0" />
+
 
 
 
