@@ -62,7 +62,20 @@ To avoid duplication, these files are linked into respective subdirectories as [
     This will start all 4 agents and the web app in background processes
 
 4.  **Access the App:**
-    Open in your browser. **http://localhost:8000**  <img width="953" height="964" alt="Screenshot 2026-02-19 at 13 33 43" src="https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67" />
+    Open in your browser. **http://localhost:8000**
+
+    <img width="953" height="964" alt="Screenshot 2026-02-19 at 13 33 43" src="https://github.com/user-attachments/assets/3587a525-70c9-42d8-8434-95b16fb08e67" />
+
+    <img width="947" height="984" alt="Screenshot 2026-02-19 at 13 33 37" src="https://github.com/user-attachments/assets/d8466029-e738-4852-98bc-cef1bbb5acbe" />
+    
+<img width="960" height="986" alt="Screenshot 2026-02-19 at 13 30 02" src="https://github.com/user-attachments/assets/26ddb09b-cdaa-4436-accb-73aee3b1221a" />
+
+<img width="958" height="990" alt="Screenshot 2026-02-19 at 13 29 55" src="https://github.com/user-attachments/assets/4923efc8-3932-4ccf-ac84-c3c1ba8b0f67" />
+
+<img width="953" height="975" alt="Screenshot 2026-02-19 at 13 29 27" src="https://github.com/user-attachments/assets/8608272d-875b-41b8-bce6-0aaeb0a3c2aa" />
+
+<img width="945" height="972" alt="Screenshot 2026-02-19 at 13 29 19" src="https://github.com/user-attachments/assets/15780e76-b3f1-4154-8f52-e0d9649c68c0" />
+
 
 
 ## Deployment
