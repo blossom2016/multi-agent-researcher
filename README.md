@@ -63,7 +63,7 @@ To avoid duplication, these files are linked into respective subdirectories as [
 
 4.  **Access the App:**
     Open **http://localhost:8000** in your browser.
-
+![Alt text for the image](images/Screenshot 2026-02-19 at 13.29.19.png)
 ## Deployment
 
 To deploy to Google Cloud Run, you need to deploy each service individually and then configure the Orchestrator with the URLs of the other services.
