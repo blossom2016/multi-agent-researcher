@@ -68,6 +68,7 @@ To avoid duplication, these files are linked into respective subdirectories as [
 
 
 Tell The App what you will like to Generate 
+
 <img width="958" height="990" alt="Screenshot 2026-02-19 at 13 29 55" src="https://github.com/user-attachments/assets/4923efc8-3932-4ccf-ac84-c3c1ba8b0f67" />
 
 
