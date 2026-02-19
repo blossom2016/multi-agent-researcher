@@ -37,27 +37,17 @@ def create_save_output_callback(key: str):
 # Connect to Researcher, Judge, and Content Builder using RemoteA2aAgent.
 # Remember to use the environment variables for URLs (or localhost defaults).
 
-researcher = None
-judge = None
-content_builder = None
-
 # --- Escalation Checker ---
 
 # TODO: Define EscalationChecker
 # This agent should check the status of the judge's feedback.
 # If status is "pass", it should escalate (break the loop).
 
-escalation_checker = None
-
 # --- Orchestration ---
 
 # TODO: Define the Research Loop
 # Use LoopAgent to cycle through Researcher -> Judge -> EscalationChecker.
 
-research_loop = None
-
 # TODO: Define the Root Agent (Pipeline)
 # Use SequentialAgent to run the Research Loop followed by the Content Builder.
-
-root_agent = None
 

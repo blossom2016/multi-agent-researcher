@@ -11,7 +11,3 @@ MODEL = "gemini-2.5-pro"
 
 # TODO: Define the Judge Agent
 # The judge should accept research findings, evaluate them, and output the JudgeFeedback schema.
-
-judge = None
-
-root_agent = judge

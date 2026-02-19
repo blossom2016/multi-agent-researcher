@@ -8,7 +8,3 @@ MODEL = "gemini-2.5-pro"
 # The researcher should be an Agent that uses the google_search tool
 # and follows the instructions to gather information.
 
-researcher = None
-
-root_agent = researcher
-
